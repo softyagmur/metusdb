@@ -1,0 +1,6 @@
+dist
+.vscode
+tsconfig.json
+node_modules
+package-lock.json
+test

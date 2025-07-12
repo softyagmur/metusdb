@@ -1,6 +1,6 @@
 {
   "name": "metusdb-test",
-  "version": "1.0.0-beta.5",
+  "version": "1.0.0-beta.6",
   "description": "This package is a module for testing metus.db. Developer: @softtyagmur (1390739558085300264)",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",
@@ -28,6 +28,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "axios": "^1.10.0"
+    "axios": "^1.10.0",
+    "metusdb-test": "^1.0.0-beta.5"
   }
 }

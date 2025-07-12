@@ -8,7 +8,7 @@ const DataSchema = new Schema({
   value: { type: Schema.Types.Mixed, default: {} },
 });
 
-const DataModel = model("rainstack", DataSchema);
+const DataModel = model("metusdb", DataSchema);
 
 export class MongoDatabase {
   async set(key: string, value: any): Promise<void> {

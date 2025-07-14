@@ -15,11 +15,11 @@
 **✨ Version 1.0.0**
 
 ```bash
-npm install metus.db
+npm install metusdb
 
 or
 
-pnpm install metus.db
+pnpm install metusdb
 ```
 
 # ⏰ Long-term Plans
@@ -31,14 +31,14 @@ pnpm install metus.db
 **CommonJS:**
 
 ```js
-const { Database, MongoDatabase } = require("metus.db");
+const { Database, MongoDatabase } = require("metusdb");
 const mongoose = require("mongoose");
 ```
 
 **ESM:**
 
 ```js
-import { Database, MongoDatabase } from "metus.db";
+import { Database, MongoDatabase } from "metusdb";
 import mongoose from "mongoose";
 ```
 

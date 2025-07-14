@@ -2,7 +2,7 @@ import axios from "axios";
 
 export function checker(version: string) {
   axios
-    .get("https://api.metehanstudio.com/api/npm/metusdb-test")
+    .get("https://api.metehanstudio.com/api/npm/metusdb")
     .then((response) => {
       if (response.data?.version !== version)
         console.error(

@@ -1,7 +1,7 @@
 {
-  "name": "metusdb-test",
-  "version": "1.0.0-beta.6",
-  "description": "This package is a module for testing metus.db. Developer: @softtyagmur (1390739558085300264)",
+  "name": "metusdb",
+  "version": "1.0.0",
+  "description": "This package is an NPM module that makes using JSON and Mongo fast, secure and easy. Developer: @softtyagmur (1390739558085300264)",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",
   "exports": {
@@ -20,7 +20,7 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "author": "softyagmur",
+  "author": "YagmurSoftware",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "axios": "^1.10.0",
-    "metusdb-test": "^1.0.0-beta.5"
+    "mongoose": "^8.16.3"
   }
 }
